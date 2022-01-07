@@ -1,0 +1,79 @@
+.main{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 328px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: hsl(225, 100%, 98%); /* Very pale blue */
+    padding-bottom: 20px;
+}
+
+.description-container{
+    text-align: center;
+    width: 249px;
+    margin: auto auto;
+}
+
+.price-container{
+    margin: auto auto;
+    width: 281px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px ;
+    background-color: hsl(231, 26%, 95%);
+}
+
+.price-container a:hover{
+    text-decoration: none;
+    color: hsl(245, 83%, 68%);  /* Dark blue */
+}
+
+.description-price-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description-price-container h4{
+    color: hsl(223, 47%, 23%);  /* Dark blue */
+    margin: 0;
+}
+
+.btn-container{
+    
+    text-align: center;
+}
+
+.button{
+    margin: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    width: 281px;
+    background-color: hsl(245, 75%, 52%); /* Bright blue */
+    color: hsl(225, 100%, 98%); /* Very pale blue */
+    font-weight: 900;
+    box-shadow: 1px 40px 31px -21px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 40px 31px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 40px 31px -21px rgba(0,0,0,0.75);
+}
+
+.button:hover{
+    background-color: hsl(245, 83%, 68%);
+    cursor: pointer;
+}
+
+.btn-container a{
+    color: hsl(224, 23%, 55%); /* Desaturated blue */
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.btn-container a:hover{
+    color: hsl(223, 47%, 23%);  /* Dark blue */
+}
+
+ 

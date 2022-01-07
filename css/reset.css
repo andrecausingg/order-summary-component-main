@@ -1,0 +1,29 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+  
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem; /* 16px */
+    background-color: hsl(225, 100%, 94%); /* Pale blue */ 
+    color: hsl(224, 23%, 55%); /* Desaturated blue */
+    font-weight: 300;
+    background-image: url('../images/pattern-background-mobile.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+h2{
+    color: hsl(223, 47%, 23%);  /* Dark blue */
+    font-weight: 900;
+}
