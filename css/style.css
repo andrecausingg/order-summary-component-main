@@ -75,5 +75,13 @@
 .btn-container a:hover{
     color: hsl(223, 47%, 23%);  /* Dark blue */
 }
-
  
+.footer{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer a{
+    color: hsl(0, 0%, 100%); /* White */
+}
